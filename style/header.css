@@ -1,0 +1,117 @@
+/*reset*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
+blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, 
+font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, 
+table, caption, tbody, tfoot, thead, tr, th, td {
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+vertical-align: baseline;
+} 
+a{
+text-decoration:none;
+}
+img ,div{ behavior: url(style/iepngfix.htc) }
+
+ul {
+list-style: none;
+}
+
+/*size*/
+html,body {
+width: 100%;
+min-width: 960px;
+}
+
+/*header*/
+#greenLine{
+width: 100%;
+min-width: 960px;
+height: 32px;
+background: url(../images/greenLine.jpg);
+position: relative;
+color : white;
+}
+/*logo*/
+#logo{
+width: 100%;
+min-width: 960px;
+height: 1px;
+position: absolute;
+top: 0px;
+left: 0px;
+z-index: 9999;
+}
+#logoImg{
+width: 960px;
+height: 1px;
+margin-left: auto;
+margin-right: auto;
+margin-top:1px;
+}
+#logoImg img{
+box-shadow: 2px 0px 2px #999, -2px 0px 2px #999;
+}
+/*menu*/
+#menuBg{
+height: 92px;
+min-width: 960px;
+background-color: #f1eee8;
+background: url(../images/menuBg.jpg);
+margin-left: auto;
+margin-right: auto;
+}
+#menu{
+width: 960px;
+min-width: 960px;
+margin-left: auto;
+margin-right: auto;
+line-height: 93px;
+}
+#menu ul{
+width: 960px;
+min-width: 960px;
+margin-left: auto;
+margin-right: auto;
+}
+#menu ul li {
+display: inline;
+padding-left: 60px;
+font-family: 'Myriad Pro',arial,sans-s;
+color: #685d47;
+font-size: 30px;
+}
+#menu ul li a{
+text-decoration: none;
+color: #685d47;
+padding: 10px;
+border-radius: 8px;
+font-family: 'klavika_rgregular',arial,sans-s;
+}
+#menu ul li a:hover, #menu ul li a.selected{
+text-decoration: none;
+background-color: #EEEBE5;
+}
+#firstMenu{
+margin-left: 120px;
+}
+
+/* extra css */
+
+#greenLine a{
+    font-family: 'Myriad Pro',arial,sans-s;
+    color : white;
+}
+
+#topmenu{
+    float : right;
+    padding: 5px;
+    font-size: 14px;
+}
+
+#top-cnt{
+    margin : 0 auto;
+    width : 940px;
+}
